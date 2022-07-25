@@ -29,11 +29,11 @@ public class TrackCoach implements Coach, DisposableBean {
     }
     // add destroy method
     public void doDestroyStuff(){
-        System.out.println("TrackCoach: doing destroy stuff");
+        System.out.println("TrackCoach: doing destroy stuff on singleton");
     }
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("TrackCoach: doing destroy stuff");
+        System.out.println("TrackCoach: doing destroy stuff on prototype");
     }
 }
