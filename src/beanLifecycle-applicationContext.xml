@@ -19,7 +19,6 @@
           class = "com.udemy.springdemo.TrackCoach"
           init-method="doStartupStuff"
           destroy-method="doDestroyStuff"
-          scope="prototype"
         >
 
         <!-- Set up constructor injection -->
